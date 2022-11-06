@@ -1,0 +1,101 @@
+body {
+  color:rgb(255, 64, 0);
+  background-color:#000000;
+  font-family: Garamond, serif;
+  margin-left: 70px;
+}
+
+h1 {
+  margin-left: 0px;
+  margin-right: 70px;
+  margin-bottom: 30px;
+  padding: 20px;
+  border: 10px solid rgb(255, 64, 0);
+}
+
+nav {
+  display: block;
+  background-color: black;
+  border: 10px solid black;
+  position: sticky;
+  top:0px;
+}
+  
+ul {
+  margin-bottom: 30px;
+}
+
+table, th, td {
+  border: 1px solid;
+  margin-bottom: 40px;
+  margin-top: 30px;
+}
+
+.card {
+  width: 30vw;
+  margin: 0 auto;
+  border: 4px solid rgb(255, 64, 0);
+  background-color: rgb(0, 0, 0);
+  border-radius: 30px;
+  overflow: hidden;
+  box-shadow: 7px 10px 17px rgba(0, 0, 0, 0.2);
+}
+  
+.profile-picture {
+  width: 100%;
+}
+
+.name {
+  font-size: 2em;
+  font-style: italic;
+  text-align: center;
+    padding: 5px;
+    margin: 0;
+}
+  
+.skills {
+  padding: 10px;
+}
+  
+.cards {
+  margin-top: 30px;
+  margin-bottom: 70px;
+  display: flex
+}
+
+footer {
+  margin-top: 50px;
+  left: 0;
+  bottom: 0;
+  padding: 10px;
+  width: 100%;
+  background-color: rgb(255, 64, 0);
+  color: rgb(0, 0, 0);
+  text-align: center;
+}
+
+@media screen and (max-width: 768px) {
+
+  .cards {
+    display: block !important;
+    } 
+  
+  .card {
+  width: 70vw !important;
+  margin-bottom: 70px;
+  }      
+
+  body {
+    margin-left: 30px;
+  }
+
+  .heading-picture{
+    width: 75vw;
+    height: 30vw;
+  }
+
+  .switch-games {
+    width: 80vw;
+    height: 40vw;
+  }
+}
